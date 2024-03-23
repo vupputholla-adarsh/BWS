@@ -1,0 +1,44 @@
+<style>
+     .uppercase{
+        text-transform: uppercase;
+        color: orangered;
+     }
+     #the-title{
+        text-decoration: underline;
+     }
+     strong{
+        color: blueviolet;
+     }
+     p strong{
+        font-size: 30px;
+        color: lightgrey;
+     }
+     a{
+       color: orange;
+     }
+     a:hover{
+        color: blue;
+     }
+     a:active{
+        color: red;
+     }
+     a:visited{
+        color: yellow;
+     }
+     p.red-border{
+        display: inline;
+        border-width: 3px;
+        border-color: rgb(225, 78, 171);
+        border-style: dotted;
+     }
+     #box{
+        width: 200px;
+        height: 200px;
+        border: 2px dashed rgb(75, 75, 137);
+        padding: 10px;
+        border-radius: 0px 20px 0px 20px;
+        display: flex;
+        
+     }
+     
+    </style>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+   
+    body{
+       
+        padding: 0;
+        margin: 0;
+    }
+    #layout{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #nav{
+        background-color: yellow;
+        flex-basis: 100%;
+        border-bottom:1px solid #aaa ;
+        padding: 20px;
+    }
+    #sidebar{
+        flex-basis: 20%;
+        border-right:1px solid #aaa ;
+        padding: 20px;
+        border-bottom: 1px solid #aaa;
+    }
+    #content{
+        flex-basis: 80%;
+        padding: 20px;
+        border-bottom: 1px solid #aaa;
+    }
+    @media (max-width:500px){
+        #sidebar,#content{
+            flex-basis: 100%;
+            border-right: 0;
+        }
+    }
+    @media (max-width:475px){
+        #sidebar{
+            display: none;
+        }
+    }
+    </style>
+</head>
+<body id="layout">
+    <div></div>
+    <div id="nav">
+        this is navbar
+    </div>
+    <div id="sidebar">
+        side bar here
+    </div>
+    <div id="content">
+        this is a content 
+    </div>
+</div>
+</body>
+</html>

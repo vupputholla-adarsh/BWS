@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaquery</title>
+    <style>
+         /* .boxblue{
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            display: none; 
+        } */
+       
+        /* .width-100{
+            width: 100%;
+        }   */
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+       
+    </style>
+</head>
+<body>
+    <button>click me</button>
+    <div class="box"></div>
+    <!-- <div id="customId"></div> -->
+    <!-- <h1 class="customClassName" id="customId">// -->
+        <!-- <h1 class="customClassName">THIS IS BY BWS</h1>
+        <p class="customClassName">
+            this is some thing about the bws its looks grate
+            this is some thing about the bws its looks grate
+            this is some thing about the bws its looks grate
+        </p>
+        <p id="customId">
+            this is some thing about the bws its looks grate
+            this is some thing about the bws its looks grate
+            this is some thing about the bws its looks grate
+        </p> -->
+        <!-- <input type="text" value="serch">
+        <section>
+            adarsh is a <strong> good boy</strong>
+        </section> -->
+        <!-- <input type="text" value=''>
+        <input type="text">
+        <div class="box "></div> -->
+
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>>
+<!-- <script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    // $(document).ready(function() {
+    //     $("h1.customClassName").text("Dharshann")
+    // });/
+    $(document).ready(function() {
+        $("h1,p").text("Dharshann");
+           $("p").text(<strong>bold text </strong>);
+
+    });
+   </script> -->
+   <!-- <script>
+    $(document).ready(function(){
+        $("#customId").html("<h1>this is changed<span class='custom-class'>span text</span></h1>")
+        $("span").text("ADHARSH")
+    })
+   </script> -->
+   	
+   <!-- <script>
+    $(document).ready(function(){
+      const text=$("selection").html ()
+        console.log(text);
+    })
+   </script> -->
+   <!-- <script>
+    $(document).ready(function (){
+        $("input").on("blur",function ()){
+            
+        }
+    })
+   </script> -->
+   <!-- <script>
+
+    $(document).ready(function (){
+       e.preventDefault()
+    }
+   </script> -->
+   <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> -->
+
+   <!-- <script>
+    $(document).ready(function () {
+        $("#clickme").click(function(){
+            $("#box").show();
+        })
+    })
+   </script> -->
+   <!-- <script>
+    $(document).ready(function () {
+
+        // $("button").on("click",() => {
+        //     $(".box").addClass("blue width-100")
+        // })
+      
+        const $box=$(".box");
+        $("input").on("keyup",function(){
+            const value=$(this).val();
+            if(value===("adarsh"){
+                $box.addClass("blue"){
+                }
+                else{
+                    $box.removeClass("blue")
+                }
+            })
+        })
+    })
+    </script> -->
+   <!-- <script>
+    $(document).ready(function(){
+        $("button").on("click",function(){
+            $(".box").slideToggle()
+        })
+    })
+   </script>  -->
+   <script>
+    $(document).ready(function(){
+        $("button").on("click",function(){
+           $(".box").animate({
+            opacity:0,
+            width:"100%",
+
+           },3000)
+        })
+    })
+   </script>
+
+</body>
+</html>

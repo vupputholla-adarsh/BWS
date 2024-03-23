@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="styles.css">
+    <title>day 6</title>
+        <style>
+      /*  .box{
+        height: 25px;
+    border: 2px solid green;
+        }
+        .box:not(.dontselectme){
+            background-color:navy;
+        }
+        .box:hover{
+            background-color: yellow;
+
+        }
+        .box:nth-child(1){
+            background-color:blue ;
+            color: white;
+        }
+        ::selection{
+            background-color: skyblue;
+            color: red;
+        }
+        p::first-letter{
+            font-size: 40px;
+            color: blue;
+            float: left;
+            margin: 5px;
+        }
+        p::first-line{
+            font-weight: bold;
+        }
+        a {
+            background-color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            color:black;
+            text-decoration: none;
+            border: 1px solid rgb(19, 17, 17);
+            transition: background-colour .2s,
+            color 0.5s,
+            padding 1s;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+            padding: 10px 30px;
+        }
+        p{
+            font-family: cursive;
+        }*/
+       .box{
+        width: 200px;
+        height: 200px;
+        border: 10px solid lightgreen;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation-name: slideMe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+       }
+      /* 
+       @keyframes slideMe {
+        from{
+            top: 0;
+            left:0;
+        }
+        to{
+            left: 100%;
+
+        }
+       }*/
+       @keyframes slideMe {
+        0%{
+            top: 0;
+            left: 0;
+        }
+        25%{
+            background-color: orange;
+        }
+        50%{
+            background-color: blue;
+        }
+        75%{
+            background-color: aqua;
+        }
+        100%{
+            background-color: yellow;
+            left: 100%;
+        }
+       }
+       
+    </style>
+</head>
+<body>
+    <div id="parent">
+       <!-- <div class="box"> adarsh</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box dontselectme"></div>
+        <div class="box"></div>>-->
+
+
+  <!-- </div>
+    <hr>
+    <p>
+         M  its time to on the same way thats why
+         there i a lot of opportunities here thats why iam here
+         its time to on the same way thats why
+         there i a lot of opportunities here thats why iam here
+         its time to on the same way thats why
+         there i a lot of opportunities here thats why iam here
+    </p> --> 
+
+  <!-- <a href="#" class="botton">click me</a>-->
+<!--   <hr>
+<div>
+    <p>
+        actually recently iam trying 
+        actually recently iam trying 
+        actually recently iam trying 
+    </p>
+</div>--> 
+<div class="box"></div>
+</body>
+</html>
